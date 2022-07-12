@@ -1,6 +1,5 @@
-package com.rga.playground;
+package com.rga.playground.service;
 
-import com.rga.playground.service.SomeService;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
