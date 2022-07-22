@@ -28,7 +28,6 @@ jobs:
           generate-coverage-badge: true
           jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
           on-missing-report: fail
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Copy reports to pages
         run: |
           cp -r build/reports docs
