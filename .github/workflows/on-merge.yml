@@ -33,7 +33,7 @@ jobs:
           cp -r build/reports docs
       - name: Commit the badge (if it changed)
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'rgonzalezhf'
