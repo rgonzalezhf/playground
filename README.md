@@ -9,3 +9,7 @@ https://rgonzalezhf.github.io/playground/
 
 ![Coverage](.github/badges/jacoco.svg)
 ![Branches](.github/badges/branches.svg)
+
+
+## BADGE
+[![On Merge](https://github.com/rgonzalezhf/playground/actions/workflows/on-merge.yml/badge.svg)](https://github.com/rgonzalezhf/playground/actions/workflows/on-merge.yml)
